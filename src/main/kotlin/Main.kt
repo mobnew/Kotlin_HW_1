@@ -44,5 +44,5 @@ private fun musicDiscount(sum: Int, premium: Boolean): Int {
         sumWithDiscount = (sumWithDiscount * 0.99).toInt()
     }
 
-    return sumWithDiscount;
+    return sumWithDiscount
 }
